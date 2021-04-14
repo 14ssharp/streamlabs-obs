@@ -6,6 +6,7 @@ import PatchNotes from './pages/PatchNotes';
 import Display from './shared/Display';
 import TitleBar from './shared/TitleBar';
 import Chat from './root/Chat';
+import ClipPreview from './highlighter/ClipPreview';
 
 // list of React components for usage inside Vue components
 export const components = {
@@ -16,4 +17,5 @@ export const components = {
   Display,
   TitleBar,
   Chat,
+  ClipPreview,
 };
